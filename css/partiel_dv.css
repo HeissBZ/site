@@ -1,0 +1,381 @@
+/*..........................contenu...........................*/
+body, html{
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+
+}
+
+a, a:hover {
+  text-decoration: none;
+
+}
+
+.container-fluid{
+  padding: 0px;
+}
+.separ{
+  height: 3px;
+  width: 5%;
+  border: none;
+  box-shadow: none;
+  background-color: #FFF01F;
+}
+
+/*.......................fin du contenu........................*/
+
+/*..................header................*/
+
+.header{
+  background-color: rgb(170, 169, 169);
+  height: 70px;
+  line-height: 70px;
+
+}
+
+.logo{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  float: left;
+}
+
+.menu{
+  float: right;
+}
+
+.menu a{
+  color: #686565;
+  margin-right: 25px;
+}
+
+.menu a:hover{
+  color: #EBFF36;
+}
+
+
+/*...................bannière...............................*/
+
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban img{
+  width: 100%;
+  height: 90%;
+  max-width: 100%;
+  position: relative;
+}
+
+.inner-ban{
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-ban h1{
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+/* Concept de la société */
+.span4 img {
+  height: 200px;
+  width: 400px;
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+
+/* equipe */
+.team-content {
+    padding: 0px 15px 15px 15px;
+}
+.border-team {
+    border-bottom:1px solid #e2e2e2;
+    margin-bottom:10px;
+}
+.team-img:hover {
+    background:#f5f5f5;
+
+}
+
+/* Social Icons */
+
+.social-icons{
+
+    margin: 0;
+    padding: 0;
+    font-size : 10px;
+}
+.social {
+    margin:7px 7px 7px 0px;
+    color:#232323;
+}
+
+
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .25s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .25s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .25s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .25s;
+ }
+
+
+/* Site Heading */
+.site-heading h3{
+    font-size : 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.border {
+    background: #e1e1e1;
+    height: 1px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+/* portfolio */
+h1 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ion-minus{
+    padding:0px 10px;
+}
+
+.portfolio{
+    background-color:#f6f6f6;
+	padding:60px 0px;
+	font-size:13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portfolio .img-rounded {
+    width: 100%;
+    height: 200px;
+    margin: 15px 0px;
+}
+
+.portfolio .img-rounded:hover {
+    -webkit-transform: scale(1.20);
+    -moz-transform: scale(1.20);
+    -ms-transform: scale(1.20);
+    -o-transform: scale(1.20);
+    transform: scale(1.20);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    opacity:0.7;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+/*-----------------Abonnement-------------  */
+
+.db-bk-color-one {
+    background-color: #f55039;
+}
+
+.db-bk-color-two {
+    background-color: #46A6F7;
+}
+
+.db-bk-color-three {
+    background-color: #47887E;
+}
+
+.db-bk-color-six {
+    background-color: #F59B24;
+}
+/*============================================================
+PRICING STYLES
+==========================================================*/
+.db-padding-btm {
+    padding-bottom: 50px;
+}
+.db-button-color-square {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+    .db-button-color-square:hover {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.50);
+        border: none;
+    }
+
+
+.db-pricing-eleven {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    color: #fff;
+    line-height: 30px;
+}
+
+    .db-pricing-eleven ul {
+        list-style: none;
+        margin: 0;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+        .db-pricing-eleven ul li {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            cursor: pointer;
+        }
+
+            .db-pricing-eleven ul li i {
+                margin-right: 5px;
+            }
+
+
+    .db-pricing-eleven .price {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 40px 20px 20px 20px;
+        font-size: 30px;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+
+        .db-pricing-eleven .price small {
+            color: #B8B8B8;
+            display: block;
+            font-size: 12px;
+            margin-top: 22px;
+        }
+
+    .db-pricing-eleven .type {
+        background-color: #52E89E;
+        padding: 50px 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .db-pricing-eleven .pricing-footer {
+        padding: 20px;
+    }
+
+.db-attached > .col-lg-4,
+.db-attached > .col-lg-3,
+.db-attached > .col-md-4,
+.db-attached > .col-md-3,
+.db-attached > .col-sm-4,
+.db-attached > .col-sm-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.db-pricing-eleven.popular {
+    margin-top: 10px;
+}
+
+    .db-pricing-eleven.popular .price {
+        padding-top: 80px;
+    }
+
+    .db-bk-color-one {
+    background-color: #a5a8ad;
+}
+
+.db-bk-color-two {
+    background-color: #FFD700;
+}
+
+.db-bk-color-three {
+    background-color: #8c8e91;
+}
+
+/*  */
+@media screen and (max-width: 25px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+
+}
+/* footer */
+
+footer {
+    background-color: #a5a8ad;
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color: #a5a8ad;
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+}
+.sm li a img {
+    width:32px;
+}
